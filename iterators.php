@@ -19,4 +19,11 @@ echo "Iterator For <br>";
         echo "The number is: $x <br>";
         $x+=10;
     }
+
+    echo "<hr>";
+    echo "Iterator doWhile <br>";
+    do{
+        echo "The number is: $x <br>";
+    } while($x <= 100);
+
 ?>
