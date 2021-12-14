@@ -25,4 +25,26 @@
         echo "Does not meet any conditions";
     }
 
+        echo "<hr>";
+        echo "Week days<br>";
+        switch (date('l')) {
+            case 'Monday':
+                echo "We are on Monday";
+                break;
+            case 'Tuesday':
+                    echo "We are on Tuesday";
+                    break;
+            case 'Wednesday':
+                        echo "We are on Wednesday";
+                        break;
+            case 'Thursday':
+                            echo "We are on Thursday";
+                            break;
+            case 'Friday':
+                                echo "We are on Friday";
+                                break;
+            default:
+                echo "We are on Weekend!!";
+                break;
+        }
 ?>
